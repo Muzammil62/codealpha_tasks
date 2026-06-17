@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ibrahim Muzammil | Portfolio</title>
+  <!-- linking the css file -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+  <!-- navbar -->
+  <nav>
+    <div class="logo">Ibrahim.</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certs">Certifications</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- hero -->
+  <section id="hero">
+    <div class="hero-small">Hey, I'm</div>
+    <h1 class="hero-name">Ibrahim <span>Muzammil</span></h1>
+    <p class="hero-sub">BCA Student &nbsp;|&nbsp; Cybersecurity Enthusiast &nbsp;|&nbsp; Aspiring Data Analyst</p>
+    <p class="hero-para">
+      A 2nd year BCA student passionate about cybersecurity, ethical hacking, and network security.
+      I love building things with code and constantly learning new skills in the tech world.
+    </p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-green">View My Work</a>
+      <a href="#contact" class="btn-outline">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- about -->
+  <section id="about">
+    <div class="section-label">About Me</div>
+    <div class="section-title">Who Am I?</div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I'm <strong>Ibrahim Muzammil</strong>, a BCA student at Nitte Institute of Professional Education (2024-2027). I'm currently in my 2nd year, heading into my 3rd year.</p>
+        <p>My main interest is <strong>cybersecurity</strong> — especially network security and ethical hacking. I want to specialize in this field and help secure digital systems.</p>
+        <p>I'm a <strong>quick learner</strong> who loves solving problems and exploring new technologies. I'm actively looking for internship opportunities to get real-world experience.</p>
+      </div>
+      <div class="reveal">
+        <div class="info-table">
+          <div class="info-row">
+            <span class="label">Name</span>
+            <span class="value">Ibrahim Muzammil</span>
+          </div>
+          <div class="info-row">
+            <span class="label">Year</span>
+            <span class="value">2nd Year BCA (going to 3rd)</span>
+          </div>
+          <div class="info-row">
+            <span class="label">Focus</span>
+            <span class="value">Cybersecurity</span>
+          </div>
+          <div class="info-row">
+            <span class="label">Phone</span>
+            <span class="value">+91 9074693103</span>
+          </div>
+          <div class="info-row">
+            <span class="label">Email</span>
+            <span class="value"><a href="mailto:Ibrahimmuzammil62@gmail.com">Ibrahimmuzammil62@gmail.com</a></span>
+          </div>
+          <div class="info-row">
+            <span class="label">LinkedIn</span>
+            <span class="value"><a href="https://www.linkedin.com/in/ibrahim-muzammil-555974356" target="_blank">ibrahim-muzammil</a></span>
+          </div>
+          <div class="info-row">
+            <span class="label">Status</span>
+            <span class="value" style="color:#00e676">Open to Internships</span>
+          </div>
+        </div>
+        <div class="hobbies">
+          <p>Hobbies</p>
+          <div class="hobby-tags">
+            <span>💻 Coding</span>
+            <span>✂️ Editing</span>
+            <span>📷 Photography</span>
+            <span>🏸 Badminton</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- skills -->
+  <section id="skills">
+    <div class="section-label">Skills</div>
+    <div class="section-title">What I Know</div>
+
+    <div class="skills-cards">
+      <div class="skill-card reveal">
+        <div class="icon">💻</div>
+        <h3>Technical Skills</h3>
+        <div class="tags">
+          <span>C</span>
+          <span>C++</span>
+          <span>Python</span>
+          <span>Java</span>
+          <span>HTML & CSS</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="icon">🔐</div>
+        <h3>Cybersecurity</h3>
+        <div class="tags">
+          <span>Network Security</span>
+          <span>Ethical Hacking</span>
+          <span>Threat Analysis</span>
+          <span>Secure Coding</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="icon">🤝</div>
+        <h3>Soft Skills</h3>
+        <div class="tags">
+          <span>Problem Solving</span>
+          <span>Teamwork</span>
+          <span>Time Management</span>
+          <span>Programming Skills</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- skill level bars -->
+    <div class="skill-bars">
+      <div class="skill-bar reveal">
+        <div class="bar-top"><span>Python</span><span>75%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-w="75"></div></div>
+      </div>
+      <div class="skill-bar reveal">
+        <div class="bar-top"><span>C / C++</span><span>70%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-w="70"></div></div>
+      </div>
+      <div class="skill-bar reveal">
+        <div class="bar-top"><span>Java</span><span>65%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-w="65"></div></div>
+      </div>
+      <div class="skill-bar reveal">
+        <div class="bar-top"><span>HTML & CSS</span><span>80%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-w="80"></div></div>
+      </div>
+      <div class="skill-bar reveal">
+        <div class="bar-top"><span>Network Security</span><span>60%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-w="60"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- projects -->
+  <section id="projects">
+    <div class="section-label">Projects</div>
+    <div class="section-title">Things I've Built</div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="num">01</div>
+        <h3>Scientific Calculator</h3>
+        <p>Built a scientific calculator using Java, Python, C and CSS. Each language handled a different part — Java for math logic, Python for backend, C for performance, and CSS for the UI.</p>
+        <div class="project-techs">
+          <span>Java</span>
+          <span>Python</span>
+          <span>C</span>
+          <span>CSS</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="num">02</div>
+        <h3>Basic Calculator</h3>
+        <p>A simple web calculator with all basic operations (+, -, ×, ÷), keyboard support, a clean dark UI, and error handling for things like dividing by zero.</p>
+        <div class="project-techs">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="opacity: 0.45; border-style: dashed; cursor: default;">
+        <div class="num">03</div>
+        <h3 style="color: #555;">Coming Soon</h3>
+        <p>Working on my next project. Will update soon!</p>
+        <div class="project-techs">
+          <span style="color:#444; border-color:#333;">In Progress</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- certifications -->
+  <section id="certs">
+    <div class="section-label">Certifications</div>
+    <div class="section-title">My Credentials</div>
+    <div class="certs-grid">
+      <div class="cert-card reveal">
+        <div class="issuer">TCS</div>
+        <div class="cert-name">Develop Soft Skills that Industry Demands</div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="issuer">TCS</div>
+        <div class="cert-name">Improve Interpersonal Skills for Better Results</div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="issuer">TCS</div>
+        <div class="cert-name">Learn Corporate Etiquette</div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="issuer">HackerRank</div>
+        <div class="cert-name">Python (Basic) Certificate</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- education -->
+  <section id="education">
+    <div class="section-label">Education</div>
+    <div class="section-title">Academic Background</div>
+    <div class="edu-card reveal">
+      <div>
+        <div class="edu-year">2024 — 2027</div>
+        <div class="edu-type">Pursuing</div>
+      </div>
+      <div class="edu-right">
+        <h3>Nitte Institute of Professional Education</h3>
+        <div class="degree">Bachelor of Computer Applications (BCA)</div>
+        <p>A well-known college with experienced faculty, modern facilities, strong placement support and lots of tech and cultural events. Currently completing 2nd year with a focus on cybersecurity.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section id="contact">
+    <div class="section-label">Contact</div>
+    <div class="section-title">Get In Touch</div>
+    <div class="contact-grid">
+      <div class="reveal">
+        <h2>Let's Work <span>Together</span></h2>
+        <p>I'm open to internships, collaborations or just a chat about tech. Feel free to reach out!</p>
+        <div class="contact-items">
+          <a href="mailto:Ibrahimmuzammil62@gmail.com" class="contact-item">
+            <div class="icon">✉️</div>
+            <div class="info">
+              <small>Email</small>
+              <span>Ibrahimmuzammil62@gmail.com</span>
+            </div>
+          </a>
+          <a href="tel:+919074693103" class="contact-item">
+            <div class="icon">📞</div>
+            <div class="info">
+              <small>Phone</small>
+              <span>+91 9074693103</span>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/ibrahim-muzammil-555974356" target="_blank" class="contact-item">
+            <div class="icon">💼</div>
+            <div class="info">
+              <small>LinkedIn</small>
+              <span>ibrahim-muzammil-555974356</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="reveal">
+        <div class="contact-form">
+          <div>
+            <label>Your Name</label>
+            <input type="text" placeholder="Enter your name" id="cname">
+          </div>
+          <div>
+            <label>Your Email</label>
+            <input type="email" placeholder="Enter your email" id="cemail">
+          </div>
+          <div>
+            <label>Message</label>
+            <textarea placeholder="Write your message here..." id="cmsg"></textarea>
+          </div>
+          <button onclick="sendMsg(this)">Send Message</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <p>© 2025 <span>Ibrahim Muzammil</span>. All rights reserved.</p>
+    <a href="#hero">↑ Back to Top</a>
+  </footer>
+
+  <!-- linking the javascript file -->
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>

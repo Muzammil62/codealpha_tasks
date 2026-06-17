@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <!-- linking the css file -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="calculator">
+  <!-- display screen -->
+  <div class="screen">
+    <div class="history" id="history"></div>
+    <div class="current" id="display">0</div>
+  </div>
+
+  <!-- buttons -->
+  <div class="buttons">
+    <button class="fn" onclick="clearAll()">AC</button>
+    <button class="fn" onclick="toggleSign()">+/-</button>
+    <button class="fn" onclick="percent()">%</button>
+    <button class="op" onclick="setOperator('/')">÷</button>
+
+    <button class="num" onclick="appendNum('7')">7</button>
+    <button class="num" onclick="appendNum('8')">8</button>
+    <button class="num" onclick="appendNum('9')">9</button>
+    <button class="op" onclick="setOperator('*')">×</button>
+
+    <button class="num" onclick="appendNum('4')">4</button>
+    <button class="num" onclick="appendNum('5')">5</button>
+    <button class="num" onclick="appendNum('6')">6</button>
+    <button class="op" onclick="setOperator('-')">−</button>
+
+    <button class="num" onclick="appendNum('1')">1</button>
+    <button class="num" onclick="appendNum('2')">2</button>
+    <button class="num" onclick="appendNum('3')">3</button>
+    <button class="op" onclick="setOperator('+')">+</button>
+
+    <button class="num zero" onclick="appendNum('0')">0</button>
+    <button class="num" onclick="addDot()">.</button>
+    <button class="eq" onclick="calculate()">=</button>
+  </div>
+</div>
+
+<!-- linking the javascript file -->
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>
